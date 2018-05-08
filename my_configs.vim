@@ -58,5 +58,9 @@ let g:jsx_ext_required = 0
 " disable Syntastic by default
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
-" setl foldmethod=manual
+" Folding
+augroup XML
+    autocmd!
+    autocmd FileType xml setlocal foldmethod=indent foldlevelstart=999 foldminlines=0
+augroup END
 
