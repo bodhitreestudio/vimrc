@@ -166,7 +166,7 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vim-Session
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:session_directory="~/tmp"
+let g:session_directory="~/.vim_runtime/.sessions"
 let g:session_autoload="no"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
