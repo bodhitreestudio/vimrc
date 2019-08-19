@@ -80,6 +80,6 @@ autocmd BufRead *.twig set syntax=html filetype=html
 """"""""""""""""""""""""""""""
 " => Indent section
 """"""""""""""""""""""""""""""
-autocmd BufEnter *.java,*.gradle set shiftwidth=4 tabstop=4 softtabstop=4
-autocmd BufEnter *.js,*.jsx,*.html,*.css,*.sh,*.json,*.yml set shiftwidth=2 tabstop=2 softtabstop=2
+"autocmd BufEnter *.java,*.gradle set shiftwidth=4 tabstop=4 softtabstop=4
+"autocmd BufEnter *.js,*.jsx,*.html,*.css,*.sh,*.json,*.yml set shiftwidth=2 tabstop=2 softtabstop=2
 
