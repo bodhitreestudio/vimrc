@@ -41,6 +41,8 @@ set softtabstop=2
 set cmdheight=1
 set number
 
+set linespace=4
+
 " yank to the system register (*) by default 
 set clipboard=unnamed
 
