@@ -43,6 +43,8 @@ set number
 
 set linespace=4
 
+set nowrap
+
 " yank to the system register (*) by default 
 set clipboard=unnamed
 
